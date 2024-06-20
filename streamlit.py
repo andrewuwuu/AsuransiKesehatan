@@ -165,4 +165,4 @@ input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
 
 # Predicting endurance cost
 prediction = regressor.predict(input_data_reshaped)
-st.write(f'Prediksi Jumlah Asuransi dalam USD {prediction[0]:.2f}')
+st.write(f'Prediksi Jumlah Tagihan Asuransi dalam USD {prediction[0]:.2f}')
